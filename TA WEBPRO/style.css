@@ -1,0 +1,284 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+.navbar {
+	background-color: #D74339;
+}
+
+.logo {
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+}
+
+.container {
+	display: grid;
+	gap: 5px;
+}
+
+
+.hero {
+	grid-area: hero;
+	/* min-height: 240px; */
+	/* background-image: url(gambar1.jpg); */
+	/* background-color: #fff; */
+	background-size: cover;
+	background-position: center;
+	margin-top: 60px;
+	width: 100%;
+
+}
+.button{
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+	background-color: rgba(128, 128, 128, 0.76);
+	border: 5px;
+	margin-right: 200px;
+	margin-bottom: 20px;
+}
+.teangan{
+	padding: 5px;
+	padding-left: 200px;
+	padding-right: 200px;
+	border-radius: 5px;
+	background-color: rgba(128, 128, 128, 0.76);
+	border: 5px;
+	float: right;
+}
+
+
+
+
+.services {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+}
+
+.service {
+	/* background-color: whitesmoke; */
+	padding: 15px;
+	text-align: center;
+	border-radius: 3px;
+	height: 240px;
+
+}
+
+.service3 {
+	background-color: whitesmoke;
+	padding: 15px;
+	text-align: center;
+	border-radius: 3px;
+	/* height: 450px; */
+
+}
+
+.lainnya{
+	border: 5px;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(128, 128, 128, 0.76);
+	float: right;
+	color: black;
+}
+/* .gallery
+{
+	display: grid;
+	background-color: whitesmoke;
+	text-align: center;
+	padding: 50px;
+	gap: 50px;
+
+} */
+.kotak {
+	background-color: #E8DCCC;
+	margin-top: 0px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.kotak3 {
+	margin-top: 0px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #E8DCCC;
+}
+.kotak3 .teks{
+	text-align: justify;
+}
+
+.ukuran {
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+}
+.bookmark2{
+	margin-top: 10px;
+	float: right;
+	margin-right: 10px;
+}
+.hati{
+	margin-top: 10px;
+	float: right;
+	margin-right: 10px;
+}
+.gallery img {
+	padding: 10px;
+}
+
+.copyright {
+	display: inline-block;
+	color: whitesmoke;
+	background-color: #D74339;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+}
+.lain{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+
+.nav-link:hover{
+	background: #000;
+}
+
+/* Halaman profile */
+
+.cari{
+	border: 1px;
+	border-radius: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.kaluar {
+	padding-left: 30px;
+}
+.profile{
+	margin-top: 30px;
+	width: 100%;
+	background-color: #E8DCCC;
+}
+.akun{
+	text-align: center;
+	width: 80%;
+	background-color: #fff;
+	padding: 20px;
+	/* height: 300px; */
+	margin-top: 0px;
+}
+.ikon{
+	float: left;
+	color: gray;
+	padding-right: 30px;
+}
+.bookmark {
+	float: right;
+	padding-right: 0px;
+	/* margin-right: 5px;
+	margin-left: 5px; */
+}
+.download {
+	float: right;
+	padding-right: 20px;
+}
+.konten{
+	width: 80%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.pilarian{
+	width: 30%;
+	float: right;
+	border-radius: 10px;
+}
+
+.fkanan{
+	float: right;
+	width: 150px;
+	height: 100px;
+	padding-left: 20px;
+}
+.hiji{
+	color: red;
+	display: inline;
+}
+
+.copyright2 {
+	display: inline-block;
+	color: whitesmoke;
+	background-color: #D74339;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+/* Categori */
+form {
+	/* color: red; */
+	display: flex;
+	padding: 10px;
+	border: 100px;
+	/* border: 1px solid currentColor; */
+	border-radius: 5px;
+  }
+  .pencet{
+	  padding-right: 10px;
+	  padding-left: 10px;
+	  border: 10px;
+  }
+
+.categories{
+margin-left: 10%;}
+.bungkus{
+	margin-top: 55px;
+	background-color: #E8DCCC;
+	width: 100%;
+}
+.bungkus-deui{
+	border-radius: 10px;
+	background-color: whitesmoke;
+	width: 80%;
+}
+.masakan{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.kotak5 {
+	margin-top: 0px;
+	padding: 15px;
+	border-radius: 5px;
+	/* background-color: #E8DCCC; */
+}
+.lainnya2{
+	margin-right: 35px;
+	float: right;
+	border: 5px;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(128, 128, 128, 0.76);
+	float: right;
+	color: black;
+}
+.masakan-all{
+	margin-left: 35px;
+	font-size: 18px;
+	font-weight: 10px;
+	padding-right: 20px;
+}

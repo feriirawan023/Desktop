@@ -1,0 +1,41 @@
+.jumbotron{
+    width: 90%;
+    height: 4650px;
+    background-color: #E8DCCC;
+    margin: auto;
+    position: relative;
+}
+
+.jumbotron1{
+    width: 100%;
+    height: 3800px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ffffff;
+    margin: auto;
+    position: relative;
+}
+
+.main{
+    font-size: 25px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .copyright{
+    display: inline-block;
+    color: whitesmoke;
+    background-color: #D74339;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}

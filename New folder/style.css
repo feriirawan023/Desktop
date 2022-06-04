@@ -1,0 +1,218 @@
+*	
+	{
+		padding: 0px;
+		margin: 0px;
+	}
+body 
+	{
+		background-image: url(bgbg.png);
+	}
+
+.navbar 
+	{
+		background-color: #D74339;
+	}
+
+button
+	{
+		background-color: black;
+		color: whitesmoke;
+	}
+
+.foto
+	{
+		display: inline-block;
+		width: 50px;
+
+	}
+.navbar-brand
+	{
+
+		color: whitesmoke;
+		font: bold;
+
+	}
+.nav-link 
+	{
+		color: whitesmoke;
+		font: bold;
+		margin-left: 20px;
+	}
+
+.fa-brands:hover
+	{
+		color: red;
+
+	}
+.navbar nav .li{
+	padding: 15px;
+}
+
+.hero 
+	{
+		grid-area: hero;
+		min-height: 240px;
+		background-image: url(gambar1.jpg);
+		background-size: cover;
+		background-position: center ;
+/*		padding: 100px;
+*/		margin-top: 30px;
+	}
+
+
+.hero > *
+	{
+			display: none;
+			background-color: black;
+			color: whitesmoke;
+			padding: 5px;
+			margin-bottom: 5px;
+	}
+
+
+
+/*navigasi*/
+.menu 
+	{
+		order: -1;
+		display:grid ;
+		grid-template-columns: 1fr 2fr;
+		align-items: center;
+
+
+	}
+.menu .brand 
+	{
+		font-size: 1.3em;
+		color: black;
+	}
+
+.menu .menu-list
+	{
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		align-items: center;
+		gap: 5px;
+ 	}
+
+.menu a 
+ 	{
+ 		display: block;
+ 		background-color:  black;
+ 		color: whitesmoke;
+ 		text-decoration: none;
+ 		text-align: center;
+ 		padding: 5px;
+ 		text-transform: uppercase;
+		font-size: 0.9em;
+ 	}
+
+
+ /*Services*/
+.services
+ 	{
+ 		display: grid;
+ 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ 		gap: 20px;
+ 	}
+.icon 
+	{
+		text-align: center;
+	}
+.service 
+ 	{
+ 		background-color: whitesmoke;
+ 		padding: 15px;
+ 		text-align: center;
+ 		border-radius: 3px;
+ 	}
+ /*Akhir Services*/
+
+ @media (max-width: 1024px)
+ 	{
+ 		.menu 
+ 			{
+ 				order: inherit;
+ 				grid-template-columns: 1fr;
+ 			}
+ 		.menu .brand
+ 			{
+ 				display: none;
+ 			}
+ 		.hero > * 
+			{
+				display: block;
+				background-color: black;
+				color: whitesmoke;
+				padding: 5px;
+				margin-bottom: 5px;
+		/*		flex-direction: column;
+				align-items: start;
+				justify-content: center;*/
+			}
+
+		.hero
+			{
+				display: flex;
+				flex-direction: column;
+				align-items: start;
+				justify-content: center;
+
+
+			}
+
+ 	}
+
+ @media (max-width: 768px)
+ 	{
+
+ 	}
+
+ @media (max-width: 600px)
+ 	{
+ 		.header 
+ 			{
+ 				grid-template-areas :
+ 				'hero';
+ 			}
+
+ 	}
+
+
+ /*About*/
+ .heroA
+	{
+		grid-area: hero;
+		min-height: 300px;
+		background-image: url(800.jpg);
+		background-size: cover;
+		background-position: center ;
+		padding: 50px;
+	}
+
+ .About
+ 	{
+ 		padding: 50px;
+ 		background-color: whitesmoke;
+ 		text-align: justify;
+ 	}
+ .About h3
+ 	{
+ 		text-align: center;
+ 	}
+
+.gallery
+{
+/*	display: grid;
+*/	background-color: whitesmoke;
+	text-align: center;
+	padding: 50px;
+	gap: 50px;
+
+}
+
+.gallery img 
+{
+	padding: 10px;
+}
